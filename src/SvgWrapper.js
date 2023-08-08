@@ -105,7 +105,6 @@ class SvgWrapper {
 
     // give the mask an id
     masks.setAttributeNS(null, 'id', this.uid + '-text-mask');
-    masks.setAttribute('maskUnits', 'userSpaceOnUse');
 
     for (let path of pathChildNodes) {
       paths.appendChild(path);
